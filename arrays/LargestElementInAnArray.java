@@ -17,7 +17,7 @@ public class LargestElementInAnArray {
         }
         return max;
     }
-
+    // Time: O(n), Space: O(1)
     public static int findLargestByOptimizeMethod(int[] arr) {
         int max = Integer.MIN_VALUE;
         for (int num : arr) {
